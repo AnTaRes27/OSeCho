@@ -1,20 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSeCho", "OSeCho\OSeCho.csproj", "{80089E13-1EAC-436B-8F10-2500FB6F7731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFEBE351-20EB-493D-8B49-8A3B8DAA4F9B}"
+	ProjectSection(SolutionItems) = preProject
+		vrcosc.json = vrcosc.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Debug|x86.ActiveCfg = Debug|x86
+		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Debug|x86.Build.0 = Debug|x86
 		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Release|x86.ActiveCfg = Release|x86
+		{80089E13-1EAC-436B-8F10-2500FB6F7731}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
